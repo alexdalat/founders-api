@@ -10,17 +10,19 @@ Test
         <th>Example Result</th>
     </tr>
     <tr>
-        <td markdown="1">
-        `/users/:id/`
-        </td>
         <td>
-        Returns info about a specific user.
-        </td>
+
+`/users/:id/`
+</td>
         <td>
-            <ul>
-                <li>404 - Not found.</li>
-                <li>500 - Fetch error</li>
-            </ul>
+
+Returns info about a specific user.
+</td>
+        <td>
+
+* 404 - Not found.
+* 500 - Fetch error
+</ul>
         </td>
         <td>
 <pre><code>{
