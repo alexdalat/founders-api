@@ -19,19 +19,13 @@ Test
         <td>
         * 404 - Not found. * 500 - Fetch error
         </td>
-        <td>
-            <pre>
-                <code>
-{
+        <td>{
     "username":"Xelada",
     "rank":"Admin",
     "servers":"2,4",
     "lastSeen":1568418961,
     "created":0
-}
-                </code>
-            </pre>
-        </td>
+}</td>
     </tr>
 </table>
 
