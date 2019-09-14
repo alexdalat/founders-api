@@ -17,7 +17,10 @@ Test
         Returns info about a specific user.
         </td>
         <td>
-        * 404 - Not found. * 500 - Fetch error
+            <ul>
+                <li>404 - Not found.</li>
+                <li>500 - Fetch error</li>
+            </ul>
         </td>
         <td>
 <pre><code>{
