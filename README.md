@@ -12,14 +12,14 @@ An API connected to the Founders' server hosting panel.
         <td>`/users/:id/`</td>
         <td>Returns info about a specific user.</td>
         <td>* 404 - Not found. * 500 - Fetch error</td>
-        <td>`json`
-            `    {`
-                    `"username":"Xelada",`
-                    `"rank":"Admin",`
-                    `"servers":"2,4",`
-                    `"lastSeen":1568418961,`
-                     `"created":0`
-                `}`
+        <td>```json
+                {
+                    "username":"Xelada",
+                    "rank":"Admin",
+                    "servers":"2,4",
+                    "lastSeen":1568418961,
+                    "created":0
+                }
         </td>
     </tr>
 </table>
