@@ -10,10 +10,8 @@ Test
         <th>Example Result</th>
     </tr>
     <tr>
-        <td>
-        
+        <td markdown="1">
         `/users/:id/`
-
         </td>
         <td>
         Returns info about a specific user.
