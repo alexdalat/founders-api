@@ -25,8 +25,9 @@ Returns info about a specific user.
 </ul>
         </td>
         <td>
-
+        
 ```json
+{
     "username":"Xelada",
     "rank":"Admin",
     "servers":"2,4",
