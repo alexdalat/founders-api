@@ -3,7 +3,11 @@ An API connected to the Founders' server hosting panel.
 
 # Glossary
 * [Users](#user-apis)
+  * [All](#get-all-users-info)
+  * [Single](#get-specific-users-info)
 * [Servers](#server-apis)
+  * [All](#get-all-servers-undetailed-info)
+  * [Single](#get-specfic-servers-undetailed-info)
 
 ## User APIs
 #### Get specific users' info
