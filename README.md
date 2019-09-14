@@ -2,30 +2,9 @@
 An API connected to the Founders' server hosting panel.
 Test
 
-<table>
-    <tr>
-        <th>API Call</th>
-        <th>Description</th>
-        <th>Errors</th>
-        <th>Example Result</th>
-    </tr>
-    <tr>
-        <td>
-
-`/users/:id/`
-</td>
-        <td>
-
-Returns info about a specific user.
-</td>
-        <td>
-
-* 404 - Not found.
-* 500 - Fetch error
-</ul>
-        </td>
-        <td>
-        
+# User APIs
+**Returns info about a specific user.**
+* `/users/:id/`
 ```json
 {
     "username":"Xelada",
@@ -35,9 +14,6 @@ Returns info about a specific user.
     "created":0
 }
 ```
-</td>
-    </tr>
-</table>
 
 
 
