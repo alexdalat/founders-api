@@ -20,7 +20,8 @@ Test
         * 404 - Not found. * 500 - Fetch error
         </td>
         <td>
-            <pre >
+  
+            ```json
                 {
                     "username":"Xelada",
                     "rank":"Admin",
@@ -28,7 +29,8 @@ Test
                     "lastSeen":1568418961,
                     "created":0
                 }
-            </pre>
+            ```
+            
         </td>
     </tr>
 </table>
