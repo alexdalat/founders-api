@@ -20,29 +20,18 @@ Test
         * 404 - Not found. * 500 - Fetch error
         </td>
         <td>
-        ```json
-            {
-                "username":"Xelada",
-                "rank":"Admin",
-                "servers":"2,4",
-                "lastSeen":1568418961,
-                "created":0
-            }
-        ```
+            <pre >
+                {
+                    "username":"Xelada",
+                    "rank":"Admin",
+                    "servers":"2,4",
+                    "lastSeen":1568418961,
+                    "created":0
+                }
+            </pre>
         </td>
     </tr>
 </table>
-
-API Call     | Description                              | Errors                              | Example Result
--------------|------------------------------------------|-------------------------------------|----------------------------------------
-`/users/:id/`|Returns info about a specific user.       |* 404 - Not found. * 500 - Fetch error.|```json
-             |                                          |                                     |    {
-             |                                          |                                     |        "username":"Xelada",
-             |                                          |                                     |        "rank":"Admin",
-             |                                          |                                     |        "servers":"2,4",
-             |                                          |                                     |        "lastSeen":1568418961,
-             |                                          |                                     |        "created":0
-             |                                          |                                     |}```
 
 
 
