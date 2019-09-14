@@ -20,6 +20,7 @@ An API connected to the Founders' server hosting panel.
                     "lastSeen":1568418961,
                     "created":0
                 }
+            ```
         </td>
     </tr>
 </table>
