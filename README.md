@@ -3,7 +3,7 @@ An API connected to the Founders' server hosting panel.
 
 ## User APIs
 **Get specific users' info**
-* `/users/**<userid>**/`
+* `/users/<userid>/`
 ```json
 [{
     "username": "TestUser1",
@@ -30,13 +30,43 @@ An API connected to the Founders' server hosting panel.
     "lastSeen": 1567893785,
     "created": 1567893785
 }, {
-    ...
+    "..."
 }]
 ```
 
 ## Server APIs
-**Get specfic servers' (undetailed) info**
-* `/servers/**<id>**/`
+**Get specfic servers' undetailed info**
+* `/servers/<id>/`
+```json
+[{
+    "domain": "mc.google.com",
+    "ip": "8.8.8.8",
+    "port": 25565,
+    "name":"Google MC",
+    "server-jar": "spigot-1.14.4"
+}]
+```
+
+**Get specfic servers' undetailed info**
+* `/servers/<id>/`
+```json
+[{
+    "domain": "mc.google.com",
+    "ip": "8.8.8.8",
+    "port": 25565,
+    "name":"Google MC",
+    "server-jar": "spigot-1.14.4"
+}, {
+    "domain": "mc.yahoo.com",
+    "ip": "209.191.122.70",
+    "port": 25566,
+    "name":"Yahoo MC",
+    "server-jar": "spigot-1.14.4"
+}]
+```
+
+
+
 
 
 
