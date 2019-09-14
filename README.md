@@ -1,7 +1,7 @@
 # Founders Api
 An API connected to the Founders' server hosting panel.
 
-# Glossary
+# Index
 * [Users](#user-apis)
   * [All](#get-all-users-info)
   * [Single](#get-specific-users-info)
