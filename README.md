@@ -6,7 +6,7 @@ An API connected to the Founders' server hosting panel.
 * [Servers](#server-apis)
 
 ## User APIs
-### Get specific users' info
+#### Get specific users' info
 * `/users/<userid>/`
 ```json
 [
@@ -20,7 +20,7 @@ An API connected to the Founders' server hosting panel.
 ]
 ```
 
-### Get all users' info
+#### Get all users' info
 * `/users/all/`
 ```json
 [
@@ -59,7 +59,7 @@ An API connected to the Founders' server hosting panel.
 ]
 ```
 
-### Get all servers' undetailed info
+#### Get all servers' undetailed info
 * `/servers/all/`
 ```json
 [
