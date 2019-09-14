@@ -2,8 +2,8 @@
 An API connected to the Founders' server hosting panel.
 
 ## User APIs
-**Returns info about a specific user.**
-* `/users/:id/`
+**Get specific users' info**
+* `/users/**<userid>**/`
 ```json
 [{
     "username": "TestUser1",
@@ -14,23 +14,30 @@ An API connected to the Founders' server hosting panel.
 }]
 ```
 
-**Returns info about all users.**
+**Get all users' info**
 * `/users/all/`
 ```json
 [{
-    "username":"TestBot1",
-    "rank":"Admin",
-    "servers":"2,4",
-    "lastSeen":1568418961,
-    "created":0
+    "username": "TestUser1",
+    "rank": "Member",
+    "servers": "2,4",
+    "lastSeen": 1567893766,
+    "created": 1567893766
 }, {
     "username": "TestUser2",
     "rank": "Member",
     "servers": "1,5",
-    "lastSeen":1567893785,
-    "created":1567893785
+    "lastSeen": 1567893785,
+    "created": 1567893785
+}, {
+    ...
 }]
 ```
+
+## Server APIs
+**Get specfic servers' (undetailed) info**
+* `/servers/**<id>**/`
+
 
 
 
