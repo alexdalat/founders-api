@@ -11,7 +11,9 @@ Test
     </tr>
     <tr>
         <td>
+        
         `/users/:id/`
+
         </td>
         <td>
         Returns info about a specific user.
