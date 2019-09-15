@@ -1,6 +1,10 @@
 # Founders Api
 An API connected to the Founders' server hosting panel.
 
+## Official libraries that use Founders' API
+* [Founders JS](https://github.com/Xeladarocks/foundersjs/) by [Xeladarocks](https://github.com/Xeladarocks/)
+* [Founders-Api-Py](https://github.com/shupik123/FoundersApiPy/) by [shupik123](https://github.com/shupik123/)
+
 # Index
 * [Users](#user-apis)
   * [All](#get-all-users-info)
